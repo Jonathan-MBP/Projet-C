@@ -1,14 +1,24 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include "grid.h"
 
 int main() {
-    srand(time(NULL)); // Initialisation pour random
+    srand(time(NULL));
 
     Grid g;
-    grid_init(&g, 10, 10);     // 10x10 par exemple
-    grid_fill_random(&g);      // Remplir avec lettres aléatoires
-    grid_display(&g);          // Afficher avec damier
+    grid_init(&g, GRID_SIZE, GRID_SIZE);
+
+    const char *mots[] = {"CHAT", "CHIEN", "OISEAU", "POISSON"};
+    int nbMots = sizeof(mots) / sizeof(mots[0]);
+
+    for (int i = 0; i < nbMots; i++) {
+        grid_insert_word_random(&g, mots[i]);
+    }
+
+    grid_fill_random(&g);
+    grid_display(&g);
 
     return 0;
 }
+

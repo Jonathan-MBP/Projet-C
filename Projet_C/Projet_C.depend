@@ -1,14 +1,39 @@
 # depslib dependency file v1.0
-1747601638 source:c:\users\jonat\onedrive\dokumente\mes projet c++\projet_c\grid.c
+1747822406 source:c:\users\jonat\onedrive\dokumente\mes projet c++\projet_c\grid.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"grid.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"grid.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1747822758 c:\users\jonat\onedrive\dokumente\mes projet c++\projet_c\grid.h
+
+1747823869 source:c:\users\jonat\onedrive\dokumente\mes projet c++\projet_c\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"grid.h"
 
-1747601635 c:\users\jonat\onedrive\dokumente\mes projet c++\projet_c\grid.h
-
-1747601641 source:c:\users\jonat\onedrive\dokumente\mes projet c++\projet_c\main.c
+1747822406 c:\users\jonat\onedrive\dokumente\mes projet c++\projet_c\grid.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"grid.h"
+	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"grid.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
 
